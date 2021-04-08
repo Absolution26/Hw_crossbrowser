@@ -1,0 +1,234 @@
+@import url(../css/nullstyle.css);
+
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('../fonts/bebasneue_bold-webfont.eot');
+    src: url('../fonts/bebasneue_bold-webfont.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/bebasneue_bold-webfont.woff2') format('woff2'),
+            url('../fonts/bebasneue_bold-webfont.woff') format('woff'),
+            url('../fonts/bebasneue_bold-webfont.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neuelight';
+    src: url('../fonts/bebasneue_light-webfont.eot');
+    src: url('../fonts/bebasneue_light-webfont.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/bebasneue_light-webfont.woff2') format('woff2'),
+            url('../fonts/bebasneue_light-webfont.woff') format('woff'),
+            url('../fonts/bebasneue_light-webfont.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neue_regularregular';
+    src: url('../fonts/bebasneue_regular-webfont.eot');
+    src: url('../fonts/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/bebasneue_regular-webfont.woff2') format('woff2'),
+            url('../fonts/bebasneue_regular-webfont.woff') format('woff'),
+            url('../fonts/bebasneue_regular-webfont.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neuethin';
+    src: url('../fonts/bebasneue_thin-webfont.eot');
+    src: url('../fonts/bebasneue_thin-webfont.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/bebasneue_thin-webfont.woff2') format('woff2'),
+            url('../fonts/bebasneue_thin-webfont.woff') format('woff'),
+            url('../fonts/bebasneue_thin-webfont.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+.page {
+    background-color: #9789f9;
+}
+
+.ba-container {
+    max-width: 1170px;
+    margin:0 auto;
+}
+.ba-pricing {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+    margin-top:55px;
+}
+.ba-price {
+    width: 327px;
+    height: 611px;
+    background-color: #f5f4f9;;
+    -webkit-box-shadow: 2px 4px 59px 0px #7a6be7;;
+            box-shadow: 2px 4px 59px 0px #7a6be7;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+    
+}
+.ba-price__rate {
+    font-family: 'bebas_neuethin';
+    font-size: 60px;
+    line-height: 36px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #181818;
+}
+.ba-price__rate::before {
+    content: "$";
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #181818;
+    position: relative;
+    bottom: 25px;
+}
+
+.ba-price__rate::after {
+    content: "/HR";
+    font-family: 'bebas_neuelight';
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 0.08em;
+    color: #181818;
+}
+.ba-price__position {
+    font-family: 'bebas_neue_regularregular';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #181818;
+    padding: 0px 0 20px 0;
+}
+li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 53px;
+    font-weight: 300;
+    color: #181818;
+}
+li:first-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin:30px 0 50px 0;
+}
+.ba-price__body {
+    width:100%;
+    background-color:white;
+    border-radius:45% 45% 0 0;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+    padding:0 0 45px 0;
+}
+.ba-button {
+    font-family: 'bebas_neuebold';
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #ffffff;
+    width: 203px;
+    height: 54px;
+    background-color: #6fcffb;
+    -webkit-box-shadow: 2px 4px 18px 0px rgba(133,192,247,0.31);
+            box-shadow: 2px 4px 18px 0px rgba(133,192,247,0.31);
+    border-radius: 27px;
+    text-align:center;
+    padding:20px 0 0 0;
+    position: relative;
+    top: 40px;
+}
+.bubble {
+    position: absolute;
+    top: 0;
+    right: -30px;
+}
+.bubble__main {
+    width: 46px;
+    height: 46px;
+    background-color: #fd8d7b;
+    font-family: 'bebas_neue_regularregular';
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #ffffff;
+    border-radius:50%;
+    text-align:center;
+    padding: 12px 0 0 4px;
+    
+}
+.bubble__secondary {
+    width: 19px;
+    height: 17px;
+    background-image:url(../img/bubble.png);
+    position: relative;
+    left: 40px;
+    top: 5px;
+}
+.bubble__notifications {
+    width: 101px;
+    height: 30px;
+    font-family: 'bebas_neue_regularregular';
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #ffffff;
+    background-image: url(../img/tooltip_bg.png);
+    background-size: contain;
+    text-align:center;
+    padding:10px 0 0 0;
+    position: relative;
+    bottom: 40px;
+    left: 50px;
+}
+.ba-button--center{
+    background-color: #fd8d7b;
+    top:-25px;
+    
+}
+.ba-price--center {
+    width: 370px;
+    height: 691px;
+    position:relative;
+}
+.discount {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    color: #a9a9a9;
+}
